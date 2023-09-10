@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Prints combinations of two two-digit numbers.
+ * main - Prints two-digit number pairs in ascending order.
  *
- * Return: Always 0 (Success)
+ * Return: 0 for success.
  */
 int main(void)
 {
-	/* Loop for the first two-digit number */
-	for (int i = 0; i <= 99; i++)
+	int i, j;
+
+	for (i = 0; i <= 99; i++)
 	{
-		/* Loop for the second two-digit number */
-		for (int j = i; j <= 99; j++)
+		for (j = i; j <= 99; j++)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
@@ -28,5 +28,4 @@ int main(void)
 	}
 
 	return (0);
-}
 
