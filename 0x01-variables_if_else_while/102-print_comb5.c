@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of two two-digit numbers.
+ * main - Prints combinations of two-digit numbers from 00 to 99.
  *
- * Description: Combinations range from 00 to 99, separated by a comma.
+ * Description: Numbers separated by a comma, space, and formatted.
  * Return: Always 0
  */
 int main(void)
@@ -11,16 +11,12 @@ int main(void)
 int i, j;
 for (i = 0; i < 100; i++)
 {
-for (j = i; j < 100; j++)
+for (j = i + 1; j < 100; j++)
 {
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
-putchar(' ');
-putchar((j / 10) + '0');
-putchar((j % 10) + '0');
-if (i != 99 || j != 99)
+printf("%02d %02d", i, j);
+if (i != 98 || j != 99)
 {
-putchar(',');
+ putchar(',');
 putchar(' ');
 }
 }
