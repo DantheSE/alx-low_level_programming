@@ -1,11 +1,18 @@
 #include "main.h"
 /**
- * main - prints all the letters of the alphabet by calling a function
+ * main - prints full alphabet lower case
  *
- * Return: Always 0
+ * Description: prints lowercase alphabet
+ * Return: Always(0) Success
  */
+
 int main(void)
 {
-print_alphabet();
-return (0);
+	char character;
+	for (character = 'a'; character <= 'z'; character++)
+	{
+		_putchar(character);
+	}
+	_putchar('\n');
+	return (0);
 }
