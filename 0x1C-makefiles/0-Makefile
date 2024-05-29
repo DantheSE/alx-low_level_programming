@@ -1,2 +1,5 @@
-all: 
-	${CC}  *.c *.c -o school
+school: main.c school.c
+	@gcc main.c school.c -o school
+	@chmod +x school
+
+all: school
