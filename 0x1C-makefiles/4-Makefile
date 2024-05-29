@@ -10,6 +10,7 @@ CFLAGS = -Wall -Werror -Wextra -pedantic
 
 all: ${OBJ}
 	${CC} ${CFLAGS} -c -o ${OBJ} ${SRC}
+	${CC} ${OBJ} -o ${NAME}
 
 clean:
 	${RM} *~ ${NAME}
