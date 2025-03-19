@@ -13,10 +13,13 @@ void print_square(int size)
     {
         for (rows = 0; rows < size; rows++)
         {
-            for (hash_number = 0; hash_number < rows; hash_number++)
+            for (hash_number = 0; hash_number < size; hash_number++)
             {
                 _putchar('#');
             }
+        if (rows == (size - 1))
+            continue;
+        _putchar('\n');
         }
     }
     _putchar('\n');
