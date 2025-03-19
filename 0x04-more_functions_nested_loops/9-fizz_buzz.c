@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main - runs the program
- * @i: loop variable
- * Return - returns 0 if program and 1 for anything else
+ * Return: returns 0 if program and 1 for anything else
  */
 
 int main()
