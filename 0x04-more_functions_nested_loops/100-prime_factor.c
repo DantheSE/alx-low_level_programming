@@ -28,6 +28,6 @@ int main()
     {
         largest = number;
     }
-    printf("Largest factor: %lu\n", largest);
+    printf("%lu\n", largest);
     return (0);
 }

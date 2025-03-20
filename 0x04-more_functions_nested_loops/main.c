@@ -20,5 +20,7 @@ int main(void)
     _putchar('\n');
     print_number(INT_MIN);
     _putchar('\n');
+    print_number(50829599);
+    _putchar('\n');
     return (0);
 }
