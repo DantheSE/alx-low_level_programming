@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_array - prints an array of integers
- * @a: address of first array
- * @n: Number of array elements to be printed
- * Return: Nothing
+ * _strcpy - copies a string into another
+ * @dest: string to be copied into
+ * @source: string to be copied
+ * Return: returns the new string
  */
 
 char *_strcpy(char *dest, char *source)
