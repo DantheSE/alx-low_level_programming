@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcmp - compares the ascii values of two strings
- * @dest: first string
- * @src: second string
+ * @s1: first string
+ * @s2: second string
  * Return: zero if equal, result of subtraction if not
  */
 int _strcmp(char *s1, char *s2)
